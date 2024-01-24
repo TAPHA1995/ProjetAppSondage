@@ -152,7 +152,7 @@ export default function Homepage(){
     <div class="container">
       <div class="heading_container heading_center psudo_white_primary mb_45">
         <h2>
-          What says our <span>Customers</span>
+         
         </h2>
       </div>
       <div class="carousel-wrap ">
