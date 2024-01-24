@@ -1,5 +1,6 @@
 import React, {useState, useEffect}from 'react';
 import axios from 'axios'
+
 // import "./style/bootstrap.css"
 // import "./style/responsive.css"
 // import "./style/font-awesome.min.css"
@@ -8,15 +9,6 @@ import axios from 'axios'
 
 
 export default function Homepage(){
-    // const [sondages, setsondages] = useState([])
-    // useEffect(()=>{
-    //     sondagesRequest()
-    // },[])
-    // const sondagesRequest = async() =>{
-    //     await axios.get(ˋ${process.env.REACT_APP_BACKEND_URL}ˋsondages).then((res)=>{
-    //         console.log(res)
-    //     })
-    // }
     return(
         <div>
           <div class="hero_area">
@@ -360,6 +352,7 @@ export default function Homepage(){
       </p>
     </div>
   </section>
+
         </div>
     )
 }
